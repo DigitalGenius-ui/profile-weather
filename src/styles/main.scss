@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "./variable.scss";
+@import "./weather.scss";
+
+body{
+    @include flex(center, center, column, none);
+    background: $main;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}

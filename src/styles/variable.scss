@@ -1,0 +1,26 @@
+@mixin flex($align, $justify, $direction,$gap) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+    gap : $gap;
+}
+
+@mixin skyBlue {
+    background-color: skyblue;
+    color: black;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+@mixin grid($min) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+    gap: 0.5rem;
+}
+
+
+$single-body :linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);;
+$main: #191923;
+$shadow :rgba(211, 211, 211, 0.217);
