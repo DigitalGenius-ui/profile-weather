@@ -5,7 +5,7 @@ export const mainTemp = (data : finalData) => {
     let degree = "C";
     const temp = `
         <div class="degree">
-        <img src="http://openweathermap.org/img/wn/${data.icon}@2x.png" alt="weatherIcon">
+        <img src="https://openweathermap.org/img/wn/${data.icon}@2x.png" alt="weatherIcon">
         <h1>${(data.temp).toFixed()}<span>°${changeDegree(degree)}</span></h1>
         </div>
         `
