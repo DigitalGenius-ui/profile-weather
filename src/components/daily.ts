@@ -8,7 +8,7 @@ export const dailyUI = (data: newDaily) => {
         timelyWeather!.innerHTML +=  `
         <div class="single-time">
             <h1>${hour.title}</h1>
-            <img src="http://openweathermap.org/img/wn/${hour.icon}@2x.png" alt="weatherIcon">
+            <img src="https://openweathermap.org/img/wn/${hour.icon}@2x.png" alt="weatherIcon">
             <p>${(hour.weather).toFixed()}°${changeDegree(degree)}</p>
         </div>
         `
